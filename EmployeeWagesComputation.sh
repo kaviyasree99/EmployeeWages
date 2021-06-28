@@ -19,7 +19,7 @@ do
         esac
         totalWorkingHours=$(( totalWorkingHours + empHrs ))
 
-        salary=$(( empHrs * EMP_RATE_PER_HR ))
+        dailywage=$(( empHrs * EMP_RATE_PER_HR ))
 done
 
-totalSalary=$(( totalWorkingHours * EMP_RATE_PER_HR ))
+totalwage=$(( totalWorkingHours * EMP_RATE_PER_HR ))
